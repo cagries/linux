@@ -41,7 +41,7 @@
 		model = "imx-max98088";
 		cpu-dai = <&sai2>;
 		audio-codec = <&max98089>;
-		asrc-controller = <&asrc>;
+		/*asrc-controller = <&asrc>;*/
 		gpr = <&gpr>;
 		audio-routing =
 			"Headphone Jack", "HPL",
